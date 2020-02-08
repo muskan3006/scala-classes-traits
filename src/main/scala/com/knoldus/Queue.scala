@@ -28,8 +28,8 @@ object QueueWork extends App{
   val objectDouble=new DoubleQueue()
   val objectSquare=new SquareQueue()
   val objectDequeue=new DoubleQueue()
-  val d = objectDouble.enqueue(List(1,22,3),6)
+  val d = objectDouble.enqueue(List(),6)
   println(d)
   println( objectSquare.enqueue(List(1,3,1),6))
-  println( objectDouble.dequeue(List(1,2,3,6)))
+  println( objectDouble.dequeue(List()))
 }
